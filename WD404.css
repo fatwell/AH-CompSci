@@ -1,0 +1,23 @@
+WD404.css
+div {
+    font-size: 10px; /* Make text larger for smaller screens */
+  }
+
+.example1 {
+    display:block;
+}
+
+.example2 {
+    display:none;
+}
+
+.example3 {
+    display:none;
+}
+
+@media screen and (max-width: 768px) {
+  div {
+    font-size: 18px; 
+    background-color: aqua;/* Make text larger for smaller screens */
+  }
+}
